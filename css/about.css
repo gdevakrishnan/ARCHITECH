@@ -1,0 +1,58 @@
+/* Menu 2 About */
+#menu2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu2 .title{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0px 20px;
+    display: block;
+    width: 100%;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: rgb(255, 69, 0);
+}
+
+#menu2 .container {
+    width: 90%;
+    height: 70vh;
+    background-color: rgb(237, 242, 244);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+#menu2 .container .content {
+    width: 60%;
+    height: 100%;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu2 .container .content .content1, #menu2 .container .content .content2 {
+    margin-bottom: 30px;
+}
+
+#menu2 .container .pic {
+    width: 30%;
+    height: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 4px solid rgb(255, 69, 0);
+}
+
+#menu2 .container .pic .img {
+    width: 100%;
+    height: 100%;
+}

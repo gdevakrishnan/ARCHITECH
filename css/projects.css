@@ -1,0 +1,49 @@
+/* menu 4 projects */
+#menu5 {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu5 .pro_title {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 69, 0);
+    margin: 20px 0px 20px;
+    display: block;
+    width: 100%;
+}
+
+#menu5 .images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#menu5 .images .card {
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 30px 35px ;
+    cursor: pointer;
+    transition-property: transform;
+    transition: all .5s linear;
+}
+
+#menu5 .images .card .img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0.6;
+}
+
+#menu5 .images .card:hover {
+    transform: scale(1.5);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#menu5 .images .card:hover .img{
+    opacity: 1;
+}

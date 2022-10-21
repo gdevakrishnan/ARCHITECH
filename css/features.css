@@ -1,0 +1,90 @@
+#menu3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu3 .title {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 69, 0);
+    margin: 20px 0px 20px;
+    display: block;
+    width: 100%;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+/* container1 */
+
+#menu3 .container1 {
+    width: 50%;
+    height: 300px;
+    background-color: rgb(237, 242, 244);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 10px;
+    position: relative;
+    border-radius: 20px;
+    right: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#menu3 .container1 .pic1 {
+    width: 50%;
+    height: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2019/02/06/16/32/architect-3979490__340.jpg');
+    transform: scale(1.2);
+    transform: rotate(-10deg);
+    border-radius: 10px;
+    border: 4px solid rgb(255, 69, 0);
+    position: absolute;
+    left: -100px;
+    top: -50px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#menu3 .container1 .blog1 {
+    width: 55%;
+    padding: 0px 5%;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 25px;
+}
+
+/* container2 */
+
+#menu3 .container2 {
+    width: 50%;
+    height: 300px;
+    background-color: rgb(237, 242, 244);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    border-radius: 20px;
+    left: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#menu3 .container2 .pic2 {
+    width: 50%;
+    height: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2015/09/29/22/49/blueprint-964629__340.jpg');
+    transform: scale(1.2);
+    transform: rotate(10deg);
+    border-radius: 10px;
+    border: 4px solid rgb(255, 69, 0);
+    position: absolute;
+    right: -100px;
+    top: -50px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#menu3 .container2 .blog2 {
+    width: 55%;
+    padding: 0px 5%;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 25px;
+}
